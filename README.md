@@ -2,6 +2,8 @@
 
 This an example that shows how to create or defined a custom contexts for VitalPBX. For this example we have created an extension to retrieve and say the current external IP address of the server using [ipinfo.io](https://ipinfo.io/) service.
 
+[Full Tutorial](https://vitalpbx.org/en/customizing-vitalpbxs-dialplan/)
+
 ## Installing
 
 ```
