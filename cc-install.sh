@@ -15,7 +15,7 @@ rm -f /etc/asterisk/ombutel/extensions__90-custom.conf
 wget -P /etc/asterisk/ombutel/ https://raw.githubusercontent.com/VitalPBX/custom-contexts/master/extensions__90-custom.conf
 
 #Intall other required dependencies
-yum -y asterisk-curl
+yum install -y asterisk-curl
 
 #Reload Asterisk
 asterisk -rx"core reload";
